@@ -2,8 +2,8 @@
 
 # 设置各变量
 WSPATH=${WSPATH:-'argo'}
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
-NEZHA_SERVER=probe.nezha.org
+UUID = ${UUID:- 'a8ac2cdf-c5ce-138e-caa7-f99a4d74f1f9' }
+NEZHA_SERVER = probe.nezha.org
 NEZHA_PORT=5555
 NEZHA_KEY=p2RYaBPrCEiFro7W0Y
 
